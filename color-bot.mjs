@@ -68,7 +68,7 @@ class MCBot {
             }
 
             // Attempt to reconnect
-            setTimeout(() => this.initBot(), 5000);
+            setTimeout(() => this.initBot(), 525000);
         });
 
         this.bot.on('spawn', async () => {
